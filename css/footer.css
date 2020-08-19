@@ -1,0 +1,93 @@
+.index-footer{
+    background-image: url(../img/Footer/footer-bg.png);
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: left top;
+
+    color: #ffffff;
+
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px 0 50px 0;
+}
+
+.footer-contacts{
+    width: 320px;
+}
+.footer-contacts p{
+    margin: 0;
+    padding: 0;
+}
+.footer-contacts a{
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.footer-contacts a:hover,
+.footer-contacts a:focus{
+    border-bottom: 1px dashed #ffffff;
+}
+
+.footer-social{
+    text-align: center;
+}
+.footer-social p{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.social-icons{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 140px;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.social-icon:hover,
+.social-icon:focus{
+    filter: invert(100%);
+    transition: ease 0.3s;
+}
+
+.footer-author{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    justify-content: space-between;
+    width: 310px;
+}
+
+.footer-author p{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.footer-author .button{
+    width: 150px;
+}
+
+.footer-author .button:hover,
+.footer-author .button:focus{
+    background-color: #ffffff;
+    color: #000000;
+    transition: ease 0.3s;
+}
